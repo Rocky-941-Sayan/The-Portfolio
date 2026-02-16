@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #012b1d;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.portfolio{
+    height: 78%;
+    width: 65%;
+    background-color: #6ddb97;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.portfolio-content{
+    height: 95%;
+    width: 95%;
+    border-radius: 10px;
+    border:2px solid #012b1d;
+}
+
+/* header-part */
+header{
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+header img{
+    height: 15px;
+    width: 15px;
+}
+
+header nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#012b1d;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#012b1d;
+}
+
+/*footer-part*/
+footer{
+    padding: 20px;
+    display: flex;
+}
+
+footer i{
+    background-color: #012b1d;
+    color: #6ddb97;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* home/index */
+.main1{
+    height: 68%;
+    padding: 20px 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* about me */
+.main2{
+    height: 68%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-right: 5px;
+    padding: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.about1 ol{
+    list-style-type: decimal;
+    padding-left: 10px;
+}
+
+.about1 hr{
+    background-color: black;
+    height: 1px;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.about2{
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;
+    height: 100%;
+    width: 150%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.about2 .personality{
+    background-color: #53b879;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+}
+
+.about2 .interests{
+    background-color: #53b879;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+}
+
+.about2 ul{
+    list-style-type: '✔';
+}
+
+.about2 ul li{
+    padding-left: 5px;
+}
+
+/* projects */
+.main3{
+    height: 68%;
+    padding: 20px 50px;
+}
