@@ -11,6 +11,13 @@ body{
     height: 100vh;
 }
 
+marquee{
+    position: absolute;
+    top: 0;
+    background-color: yellowgreen;
+    font-size: 18px;
+}
+
 .portfolio{
     height: 78%;
     width: 65%;
@@ -147,3 +154,4 @@ footer i{
     height: 68%;
     padding: 20px 50px;
 }
+
