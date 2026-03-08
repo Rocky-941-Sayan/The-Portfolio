@@ -11,6 +11,31 @@ body{
     height: 100vh;
 }
 
+/* Hide message by default */
+.desktop-only-message {
+    display: none;
+}
+
+/* Show message on small screens */
+@media (max-width: 1024px) {
+    body > *:not(.desktop-only-message) {
+        display: none;
+    }
+
+    .desktop-only-message {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background: #111;
+        color: white;
+    }
+}
+
 marquee{
     position: absolute;
     top: 0;
@@ -154,4 +179,5 @@ footer i{
     height: 68%;
     padding: 20px 50px;
 }
+
 
